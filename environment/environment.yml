@@ -1,0 +1,14 @@
+name: CPBO
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - scikit-learn=1.5.1
+  - matplotlib=3.9.1
+  - pandas=2.2.2
+  - pip
+  - pip:
+      - torch==2.4.0
+      - gpytorch==1.13
+      - GPyOpt==1.2.0
