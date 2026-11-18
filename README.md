@@ -1,6 +1,10 @@
 # Consecutive Preferential Bayesian Optimization (CPBO)
 
-This repository accompanies our paper on preference-based optimization when producing new candidates is costly and users may be unable to distinguish similar options. It includes the **CPBO implementation**, adapted baselines, benchmark functions, and tools for running and evaluating experiments.
+**Published in Transactions on Machine Learning Research (TMLR), 2026.**
+
+**Paper:** [TMLR / OpenReview](https://openreview.net/forum?id=R1ac8MpBt4) | [arXiv](https://arxiv.org/abs/2511.05163)
+
+This repository accompanies our paper on **preferential Bayesian optimization** in settings where producing new candidates is costly and users may be unable to distinguish between similar options. It includes the **CPBO implementation**, adapted baselines, benchmark functions, and tools for running and evaluating experiments.
 
 ---
 
