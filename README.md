@@ -110,3 +110,20 @@ Each line in the CSV contains a shell command below with an incrementing seed va
 ```bash
 conda activate CPBO python -u CPBO_runner.py --seed-value 1 --data-gamma 0.04 --bool-model-gamma 'yes' --model-iteration 2000 --bo-init 10 --bo-optim 25 --function-name branin > logs/branin/exp1.out
 ```
+
+---
+
+## Citation
+
+```
+@article{
+erarslan2026consecutive,
+title={Consecutive Preferential Bayesian Optimization},
+author={Aras Erarslan and Carlos Sevilla Salcedo and Ville Tanskanen and Anni Nisov and Eero P{\"a}iv{\"a}kumpu and Heikki Aisala and Kaisu Honkap{\"a}{\"a} and Arto Klami and Petrus Mikkola},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=R1ac8MpBt4},
+note={Expert Certification}
+}
+```
